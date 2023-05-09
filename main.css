@@ -1,0 +1,38 @@
+
+.concluida {
+    text-decoration: line-through;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; // apenas com esse pareetro conseguir centralizar na tela
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #edf1ed;
+    color: rgb(7, 7, 7);
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+h2 {
+    font-size: 30px;
+    width: 70%;
+    margin-right: 15% ;
+	margin-left: 25%;
+}
